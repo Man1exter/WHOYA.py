@@ -62,3 +62,16 @@ elif wybor == 4:
     print(" ")
     print("Z pliku TEXTOWEGO wczytywany jest text")
     print("możesz go zmienić ja policze swoje procenty")
+    print(" ")
+
+    plik = open("import.txt","r")
+    txt = plik.read()
+    plik.close()
+
+    def policzalne(text,znaki):
+        liczenie = 0
+        for ele in text:
+           if ele == znaki:
+               liczenie += 1
+        return liczenie
+    print(policzalne(tekst,"a"))
