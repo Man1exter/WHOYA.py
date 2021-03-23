@@ -69,15 +69,19 @@ elif wybor == 4:
     plik.close()
 
     def policzalne(text,znaki):
+
         liczenie = 0
         for ele in text:
            if ele == znaki:
                liczenie += 1
         return liczenie
+        
     print("znaki (a) w calym teksie ===> ",policzalne(txt,"a"))
 
     for elementor in "abcdefghijklmnouprstuwyz":
+
         ileJest = policzalne(txt.lower(), elementor)
         procentowo = 100 * ileJest / len(txt)
+
         print("{0} - {1} - {2}%".format(elementor.upper(), ileJest ,procentowo)) # całe %
         print("{0} - {1} - {2}%".format(elementor.upper(), ileJest ,round(procentowo,2))) # 2 miejsca po przecinku
