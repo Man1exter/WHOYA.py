@@ -1,3 +1,5 @@
+from random import randint
+
 print(" Witam jestem BOT MAN1EXTER " + "\U0001f600")
 print("Mam kilka zadań a oto kilka z nich:")
 print("[1] ZGADNE KIM JESTES")
@@ -54,6 +56,7 @@ elif wybor == 3:
     print(" ")
     print(" ")
 
+    ilosc = int(input("Ile znakow ma zawierac twoj klucz randomowych znakow"))
 
 
 elif wybor == 4:
