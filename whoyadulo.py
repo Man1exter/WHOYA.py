@@ -51,8 +51,14 @@ elif wybor == 2:
 
 elif wybor == 3:
 
-    print("ok")
+    print(" ")
+    print(" ")
+
+
 
 elif wybor == 4:
 
-    print("ok")
+    print(" ")
+    print(" ")
+    print("Z pliku TEXTOWEGO wczytywany jest text")
+    print("możesz go zmienić ja policze swoje procenty")
