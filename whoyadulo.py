@@ -1,3 +1,6 @@
+from random import randint
+import sys
+
 print(" Witam jestem BOT MAN1EXTER " + "\U0001f600")
 print("Mam kilka zadań a oto kilka z nich:")
 print("[1] ZGADNE KIM JESTES")
@@ -54,8 +57,13 @@ elif wybor == 3:
     print(" ")
     print(" ")
 
+    ilosc = int(input("Ile liczb ma miec twoj kod przedzial kodu to (0 - 10)? "))
+    x = 0
 
-
+    while x < ilosc:
+     print(int(randint(0,10)))
+     x += 1
+		
 elif wybor == 4:
 
     print(" ")
