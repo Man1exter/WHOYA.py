@@ -74,4 +74,4 @@ elif wybor == 4:
            if ele == znaki:
                liczenie += 1
         return liczenie
-    print(policzalne(tekst,"a"))
+    print("znaki (a) w calym teksie ===> ",policzalne(txt,"a"))
