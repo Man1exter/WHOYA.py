@@ -3,6 +3,7 @@ print("Mam kilka zadań a oto kilka z nich:")
 print("[1] ZGADNE KIM JESTES")
 print("[2] POWIEM CI KTORA LICZBA JEST PARZYSTA, A KTORA NIE")
 print("[3] UTWORZE CI LOSOWY KLUCZ")
+print("[4] ANALIZA TEKSTU")
 
 print(" ")
 wybor = int(input("Jaka opcja cie interesuje? =======> "))
@@ -49,5 +50,9 @@ elif wybor == 2:
     print(" ")
 
 elif wybor == 3:
+
+    print("ok")
+
+elif wybor == 4:
 
     print("ok")
