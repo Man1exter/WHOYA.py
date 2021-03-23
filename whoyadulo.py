@@ -46,6 +46,8 @@ elif wybor == 2:
     for elem in enumerate(lista):
         print(elem)
 
+    print(" ")
+
 elif wybor == 3:
 
     print("ok")
