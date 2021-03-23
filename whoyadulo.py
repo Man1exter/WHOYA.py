@@ -18,4 +18,5 @@ if wybor == 1:
         print("Jestes mezczyzna")
 
 elif wybor == 2:
+    
     print("ok")
