@@ -22,9 +22,29 @@ if wybor == 1:
 
 elif wybor == 2:
 
+    print(" ")
     print("Pokaze ci parzyste i nieparzyste liczby w podanej liscie")
+    print("Bedzie to pokazane na pare sposobow")
+
     lista = [10,20,30,40,50,60,65,70,75,80,92,100]
     print(lista)
+
+    print("użycie =====> all / any")
+
+    if all([element % 2 == 0 for element in lista]):
+        print("Wszystkie parzyste")
+    else:
+        print("Niektóre są tu nieparzyste")
+
+    if any([el % 2 == 0 for el in lista]):
+        print("Chociaż 1 element jest parzysty")
+    else:
+        print("nie ma takigo")
+
+    print(" ")
+
+    for elem in enumerate(lista):
+        print(elem)
 
 elif wybor == 3:
 
