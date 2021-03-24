@@ -8,6 +8,7 @@ print("[2] POWIEM CI KTORA LICZBA JEST PARZYSTA, A KTORA NIE")
 print("[3] UTWORZE CI LOSOWY KLUCZ")
 print("[4] ANALIZA TEKSTU")
 print("[5] TIP NA DZIEN")
+print("[6] GENERATOR")
 
 print(" ")
 wybor = int(input("Jaka opcja cie interesuje? =======> "))
@@ -118,3 +119,6 @@ elif wybor == 5:
         print("BADZ USMIECHNIETY TO FAJNE")
     else:
         print("BLAD")
+
+elif wybor == 6:
+    print("")
