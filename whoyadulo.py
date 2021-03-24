@@ -6,6 +6,7 @@ print("[1] ZGADNE KIM JESTES")
 print("[2] POWIEM CI KTORA LICZBA JEST PARZYSTA, A KTORA NIE")
 print("[3] UTWORZE CI LOSOWY KLUCZ")
 print("[4] ANALIZA TEKSTU")
+print("[5] TIP NA DZIEN")
 
 print(" ")
 wybor = int(input("Jaka opcja cie interesuje? =======> "))
@@ -92,3 +93,11 @@ elif wybor == 4:
 
         print("{0} - {1} - {2}%".format(elementor.upper(), ileJest ,procentowo)) # całe %
         print("{0} - {1} - {2}%".format(elementor.upper(), ileJest ,round(procentowo,2))) # 2 miejsca po przecinku
+
+elif wybor == 5:
+
+    tip1 = "SZANUJ SWOJ CZAS"
+    tip2 = "PAMIETAJ O BLISKICH"
+    tip3 = "NA HOBBY DA SIE ZARABIAC"
+    tip4 = "NIE TRAC POCHOPNIE CZASU NA PIERDOLY"
+    tip5 = "BADZ USMIECHNIETY TO FAJNE"
