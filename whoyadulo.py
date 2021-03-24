@@ -103,7 +103,7 @@ elif wybor == 5:
     #tip4 = print("NIE TRAC POCHOPNIE CZASU NA PIERDOLY")
     #tip5 = print("BADZ USMIECHNIETY TO FAJNE")
 
-    print("OTO MOJ TIP DLA CIEBIE NA TEN DZIEN : ")
+    print("OTO MOJ TIP DLA CIEBIE NA TEN DZIEN: ")
     losuj = (randint(1,5))
     
     if losuj == 1:
