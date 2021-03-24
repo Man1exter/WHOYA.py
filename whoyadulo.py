@@ -122,7 +122,7 @@ elif wybor == 5:
 
 elif wybor == 6:
 
-    print("Podaj liczbe, do ktorej bedzie iterowana i zobaczymy ktore sa parzyste")
+    print("Podaj liczbe, ktora bedzie szukana i zobaczymy ktore sa parzyste")
     podawana = int(input("Liczba => "))
     
     def parz(podawana):
