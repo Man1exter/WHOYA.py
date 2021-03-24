@@ -121,4 +121,16 @@ elif wybor == 5:
         print("BLAD")
 
 elif wybor == 6:
-    print("")
+
+    print("Podaj liczbe, do ktorej bedzie iterowana i zobaczymy ktore sa parzyste")
+    podawana = int(input("Liczba => "))
+    
+    def parz(podawana):
+        elex = 0
+        while elex <= podawana:
+            if elex % 2 == 0:
+                yield elex
+            elex += 1
+
+    for elex in parz(podawana):
+        print("Liczby parzyste w twoim przedziale to :",elex)
