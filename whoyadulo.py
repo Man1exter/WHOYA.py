@@ -1,4 +1,5 @@
 from random import randint
+import random
 
 print(" Witam jestem BOT MAN1EXTER " + "\U0001f600")
 print("Mam kilka zadań a oto kilka z nich:")
@@ -101,3 +102,18 @@ elif wybor == 5:
     tip3 = "NA HOBBY DA SIE ZARABIAC"
     tip4 = "NIE TRAC POCHOPNIE CZASU NA PIERDOLY"
     tip5 = "BADZ USMIECHNIETY TO FAJNE"
+
+    los = print("Losowy numerek => ",randint(1,5))
+    
+    if los == 1:
+        print(tip1)
+    elif los == 2:
+        print(tip2)
+    elif los == 3:
+        print(tip3)
+    elif los == 4:
+        print(tip4)
+    elif los == 5:
+        print(tip5)
+    else:
+        print("BLAD")
