@@ -118,12 +118,12 @@ elif wybor == 5:
     elif losuj == 5:
         print("BADZ USMIECHNIETY TO FAJNE")
     else:
-        print("BLAD")
+        print("BLAD NIEZNANA WARTOSC LICZBY")
 
 elif wybor == 6:
 
     print("Podaj liczbe, ktora bedzie szukana i zobaczymy ktore sa parzyste")
-    podawana = int(input("Liczba => "))
+    podawana = int(input("Podawana Liczba => "))
     
     def parz(podawana):
         elex = 0
